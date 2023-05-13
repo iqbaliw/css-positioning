@@ -1,0 +1,125 @@
+/* BASE STYLE */
+:root {
+    --clr-creamy-peach: #f3a683;
+    --clr-rosy-highlight: #f7d794;
+    --clr-soft-blue: #778beb;
+    --clr-brewerd-mustard: #e77f67;
+    --clr-old-gera: #cf6a87;
+    --clr-purple-mountain-majesty: #786fa6;
+    --clr-rogue-pink: #f8a5c2;
+    --clr-squeaky: #63cdda;
+    --clr-apple-valley: #ea8685;
+    --clr-pencil: #596275;
+    --clr-purple-corralite: #574b90;
+    --clr-flamingo-pink: #f78fb3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Kanit", sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+header,
+footer {
+    width: 500px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.container {
+    width: 500px;
+    /* height: 100%; */
+    /* border: 1px dashed; */
+    /* background-color: var(--clr-old-gera); */
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    /* align-items: center; */
+}
+
+.item {
+    width: 105px;
+    height: 105px;
+    background-color: var(--clr-purple-mountain-majesty);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.item span {
+    font-weight: 900;
+    color: white;
+}
+
+.item-1 {
+    background-color: var(--clr-apple-valley);
+}
+
+.item-2 {
+    background-color: var(--clr-brewerd-mustard);
+}
+
+.item-3 {
+    background-color: var(--clr-creamy-peach);
+}
+
+.item-4 {
+    background-color: var(--clr-flamingo-pink);
+}
+
+.item-5 {
+    background-color: var(--clr-old-gera);
+}
+
+.item-6 {
+    background-color: var(--clr-pencil);
+}
+
+.item-7 {
+    background-color: var(--clr-purple-corralite);
+}
+
+.item-8 {
+    background-color: var(--clr-purple-mountain-majesty);
+}
+
+.item-9 {
+    background-color: var(--clr-rogue-pink);
+}
+
+.item-10 {
+    background-color: var(--clr-rosy-highlight);
+}
+
+.item-11 {
+    background-color: var(--clr-soft-blue);
+}
+
+.item-12 {
+    background-color: var(--clr-squeaky);
+}
+/* END BASE STYLE */
+
+section.welcome .container {
+    border: 1px dashed var(--clr-brewerd-mustard);
+    box-sizing: border-box;
+    padding: 10px;
+}

@@ -1,0 +1,31 @@
+body {
+    overflow-x: hidden;
+}
+
+section.box {
+    position: relative;
+    /* overflow-x: hidden; */
+}
+
+.item-1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.item-2 {
+    position: absolute;
+    top: -52px;
+    right: -52px;
+}
+
+.item-3 {
+    position: fixed;
+    bottom: 0px;
+    left: 50px;
+}
+
+.item-7 {
+    position: sticky;
+    top: 10px;
+}
